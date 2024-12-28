@@ -1,0 +1,25 @@
+POST http://localhost:8080/join
+Content-Type: application/json
+
+{
+	"email": "email",
+	"password": "12345",
+	"roles": "ROLE_ADMIN"
+}
+
+###
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+	"email": "email",
+	"password": "12345",
+	"roles": "ROLE_ADMIN"
+}
+
+###
+GET http://localhost:8080/api/user
+###
+GET http://localhost:8080/api/manager
+###
+GET http://localhost:8080/api/admin
